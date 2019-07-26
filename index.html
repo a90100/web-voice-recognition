@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="all.css">
+  </head>
+  <body>
+    <div class="content">
+      最後結果：<input id="textBox" type="text" size="60" value="" /><br/>
+      中間結果：<input id="tempBox" type="text" size="60" value="" /><br/>
+      辨識語言：
+      <select id="langCombo">
+        <option value="en-US">英文(美國)</option>
+        <option value="cmn-Hant-TW">中文(台灣)</option>
+      </select>
+      <input id="startStopButton" type="button" value="辨識" onclick="startButton(event)" /><BR />
+      <label id="infoBox"></label>
+    </div>
+    <script src="all.js"></script>
+  </body>
+</html>
